@@ -459,6 +459,13 @@ footer {
     
   } 
   @media only screen and (max-width: 552px){
+
+    .swiper-button-next, .swiper-rtl .swiper-button-prev{
+        display: none !important;
+    }
+    .swiper-button-prev, .swiper-rtl .swiper-button-next{
+        display: none;
+    }
     h2 {font-size: 35px;}
     .brand{
       img{
@@ -479,7 +486,7 @@ footer {
   @media only screen and (max-width: 768px){
     .fcolumn-reverse{
         flex-direction: column-reverse;
-        
+
      }
     .bgr-section-9 h3 {
       font-size: 24px ; }
