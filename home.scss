@@ -459,6 +459,9 @@ footer {
     
   } 
   @media only screen and (max-width: 552px){
+    .bgr-section-2 .card-icons img{
+      width: auto !important;
+    }
 
     .swiper-button-next, .swiper-rtl .swiper-button-prev{
         display: none !important;
@@ -484,6 +487,10 @@ footer {
       }
   }
   @media only screen and (max-width: 768px){
+    .bgr-section-2 .card-icons img{
+      width: 100%;
+    }
+
     .fcolumn-reverse{
         flex-direction: column-reverse;
 

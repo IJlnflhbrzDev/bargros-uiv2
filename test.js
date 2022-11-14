@@ -2,8 +2,11 @@
 function setSlider() {
   var widthScreenBody =  document.body.clientWidth; 
   var heightScreenBody = document.body.clientHeight;
-  var slidesPerViewChangeMediaQuery = 3;
+  var slidesPerViewChangeMediaQuery = 4;
 
+  if (widthScreenBody <= 1024) {
+    slidesPerViewChangeMediaQuery = 3;
+  }
   if (widthScreenBody <= 768) {
     slidesPerViewChangeMediaQuery = 2;
   } if(widthScreenBody <= 552){
