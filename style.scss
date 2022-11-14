@@ -193,7 +193,7 @@ overflow: hidden;
     height: 100%;
     width: 100%;
     object-fit: cover;
-    border: 4px solid #4070F4;
+   
   }
   .name{
     margin-bottom: 4px;
@@ -376,7 +376,12 @@ footer {
   footer .input_subscribe .btn-subscribe:hover {
     background: #43ac0e;
   }
-
+  .bgr-section-8{
+    .brand{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+  }
 
   @media only screen and (max-width: 1024px){
     .bgr-section-9 h3 {
@@ -388,6 +393,17 @@ footer {
     
   } 
   @media only screen and (max-width: 552px){
+    
+    .bgr-section-8{
+      .brand{
+        display: grid;
+        grid-template-columns: 1fr 1fr !important;
+        img{
+          width: 60%  !important;
+          margin: 0 auto;
+        }
+      }
+    }
     .bgr-section-2 .card-icons img{
       width: auto !important;
     }
@@ -415,6 +431,12 @@ footer {
       }
   }
   @media only screen and (max-width: 768px){
+    .bgr-section-8{
+      .brand{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+    }
     .bgr-section-2 .card-icons img{
       width: 100 !important;
     }
