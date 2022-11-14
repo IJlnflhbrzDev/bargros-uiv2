@@ -218,6 +218,9 @@ body {
 }
 .bgr-section-9 .btn-cursor {
   position: relative;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
 }
 .bgr-section-9 .btn-cursor .cursor {
   width: 46px;
