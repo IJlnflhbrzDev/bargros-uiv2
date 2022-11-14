@@ -284,6 +284,9 @@ h2 {
   font-weight: 600;
 }
 .bgr-section-9 .btn-cursor {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
   position: relative;
 }
 .bgr-section-9 .btn-cursor .cursor {
