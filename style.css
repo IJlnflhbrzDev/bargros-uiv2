@@ -31,7 +31,7 @@ body {
 }
 
 .bgr-section-2 {
-  background: rgba(93, 197, 246, 0.17);
+  background-color: rgba(93, 197, 246, 0.17);
 }
 .bgr-section-2 .card-icons {
   flex-direction: column;

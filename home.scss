@@ -557,3 +557,25 @@ flex-direction: column-reverse !important;
     
     
   
+
+// STYLE PAKET 
+.bgr-section-paket {
+
+  .table-striped>tbody>tr:nth-of-type(odd){
+    
+    background-color: rgba(93, 197, 246, 0.36)  !important;
+  }
+
+.table{
+border-radius: 27px;
+overflow: hidden;
+border: 1px solid black;
+  box-shadow: 1px 9px 16px 0px rgba(0, 0, 0, 0.15);
+}
+
+  
+}
+
+
+
+
