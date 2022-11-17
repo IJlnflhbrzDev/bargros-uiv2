@@ -409,6 +409,12 @@ footer .input_subscribe .btn-subscribe:hover {
   }
 }
 @media only screen and (max-width: 552px) {
+  .colomScrollingTable {
+    overflow: auto;
+  }
+  .colomScrollingTable .table {
+    overflow: auto;
+  }
   .bgr-section-8 .brand {
     display: grid;
     grid-template-columns: 1fr 1fr !important;
